@@ -42,3 +42,8 @@ func GetPasswd() []byte {
 func GetPasswdMasked() []byte {
 	return getPasswd(true)
 }
+
+// GetCh returns the char read from the terminal
+func GetCh() byte {
+	return getch()
+}
